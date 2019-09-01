@@ -59,11 +59,14 @@
 %******************************************************************************%
 \chapter{Introduction}
 
-    Introduction is a presentation of the project outline. It is valued
-    to provide some context and some ideas about what needs to be done.
-    Thus reading these few lines, a student has access to a global overview.
-
-
+As coders, when we are facing a programming task, we are inclined to start coding with a solution in mind. It's natural for us to continue coding until we think we have solved the problem. Then we execute this code, hoping it would work the first time. But more often than not, the program crashes or does not do what we intended. And we get frustrated. If the program is small enough, we can take some time to debug to fix the program. However, if the program is huge, the task of debugging will be overwhelming and time consuming.\\
+    
+Instead of coding and coding until we inevitably encounter an insurmountable error, we will code by repeating these little steps: \\
+    1) Before we code one small unit of the program, we create an unit test for it. Watch its test cases fail. RED \\
+    2) We write just enough code for this unit in order for the unit test to pass. GREEN \\
+    3) We organize the code to make it look cleaner and run more efficiently. Then make sure it passes the same unit test again. REFACTOR \\
+    
+Red -> Green -> Refactor -> Repeat! the three simple steps of Test Driven Development. 
 
 %******************************************************************************%
 %                                                                              %
