@@ -259,7 +259,7 @@ Learn more about CSS Flexbox here: \par
 %                                                                              %
 %******************************************************************************%
 
-\chapter{Exercise 05: CSS Grid}
+\chapter{Exercise 06: CSS Grid}
 
 \extitle{CSS Grid on FreeCodeCamp}
 \exnumber{\exercicenumber}
@@ -280,7 +280,7 @@ Learn more about CSS Grid here: \par
 %                                                                              %
 %******************************************************************************%
 
-\chapter{Exercise 06: Responsive Web Design Project}
+\chapter{Exercise 07: Responsive Web Design Project}
 
 \extitle{Responsive Web Design Project}
 \exnumber{\exercicenumber}
@@ -295,9 +295,9 @@ Create a tribute website of a person you are inspired by, like an artist, athele
 The website should:
 \begin{itemize}
     \item be responsive to mobile, iPad, and desktop screens
-    \item have header, main content, a sidebar, and a footer
-    \item should have two or more columns in desktop view
-    \item should have one column in mobile view
+    \item have header, main content, a sidebar, and a footer in desktop view
+    \item should have two or more containers occupying the row direction in desktop view
+    \item should have only one container occupying the row direction in mobile view
     \item include mostly images with captions, one or two lists, few texts, two or more background colors, and one or more custom fonts
     \item should use CSS Flexbox and/or CSS Grid in the responsive design
 \end{itemize}
@@ -318,7 +318,7 @@ Use the wireframes below for inspiration
     \end{figure}
 \textbf{Suggestions}
 \begin{enumerate}
-    \item Create a project folder along with files index.html and style.css. Create a subfolder named "assets" for images
+    \item Create a project folder along with files \texttt{index.html} and \texttt{style.css}. Create a subfolder named \texttt{assets/} for images
     \item Use Visual Studio Code IDE to open the folder and start writing the HTML and CSS
     \item Apply what you learned in FreeCodeCamp to create the structure of the website and style it
     \item Use Chrome browser to test your website. You can access your website by opening the html file with Chrome or typing in its file path in the browser. If you are stuck, google first.
@@ -331,22 +331,27 @@ Use the wireframes below for inspiration
 %                                                                              %
 %******************************************************************************%
 
-\chapter{Exercise 07: Github}
+\chapter{Exercise 08: Github}
 
 \extitle{Create github account}
 \exnumber{\exercicenumber}
 \exscore{2}
-\exfiles{Your Github repository should include index.html, style.css, and image files in "assets/" subdirectory}
+\exfiles{Your Github repository should include \texttt{index.html}, \texttt{style.css}, and image files in \texttt{assets/} subdirectory}
 \exauthorize{All}
 
 \makeheaderfiles
 
 \begin{enumerate}
-    \item Go to \url{https://github.com/} and create a free account using your personal email
-    \item Create a new public repository named "H2S\_responsive\_tribute\_page"
-    \item Follow instructions on connecting your tribute website project to the new Github repository
+    \item Go to \url{https://github.com/} and create a free account using your personal email if you don't already have one
+    \item Create a new public repository named \texttt{H2S\_responsive\_tribute\_page}
+    \item Follow \href{https://help.github.com/en/articles/adding-a-remote}{instructions} on connecting your tribute website project to the new Github repository
     \item Push your project onto the Github repository
-    \item Go to your Github repository settings, under "Github Pages", publish your project as a website. Follow the link (<username>.github.io/H2S\_responsive\_tribute\_page) to view website.
+    \item Go to your Github repository settings, under "Github Pages", publish your project as a website. Follow the URL formatted as
+    \begin{center}
+        \texttt{<username>.github.io/H2S\_responsive\_tribute\_page} \\
+    \end{center}
+    to view website.
+    \item Create a \texttt{README.md} in the root directory of your project folder and copy the website URL into it. Follow this \href{https://help.github.com/en/articles/basic-writing-and-formatting-syntax#headings}{guide}.
 \end{enumerate}
 
 %******************************************************************************%
@@ -360,7 +365,7 @@ Use the wireframes below for inspiration
     
     Check website is published on Github Pages.\\
 
-    Turn your work in using your \texttt{Github} repository. Only work present on your repository will be graded in defense.
+    Turn your source code in using your \texttt{42 Git repository}. Only work present on your repository will be graded in defense.
 
 %******************************************************************************%
 \end{document}

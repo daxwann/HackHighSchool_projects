@@ -1,0 +1,243 @@
+# **************************************************************************** #
+#                                                                              #
+#               RESPONSIVE_WEB_DESIGN.en.yml for RESPONSIVE WEB DESIGN         #
+#               Created on : Tue Oct  15 18:10:13 2019                         #
+#               Made by : Dax Wann <xwang@student.42.us.org>                   #
+#                                                                              #
+# **************************************************************************** #
+
+name: Responsive Web Design
+lg: en
+is_primary: true
+comment: ''
+
+
+introduction_md: |
+
+  To ensure this evaluation goes smoothly, please respect the following set
+  of rules :
+
+  - Please remain courteous, polite, respectful and constructive at all 
+    times during this exchange. The trust bond between the school's 
+    communauty and yourself depends on it.
+
+  - Should you notice any malfunctions within the submitted project, 
+    make sure you take the time to discuss those with the student (or 
+    group of students) being graded.
+
+  - Keep in mind that some subjects can be interpreted differently.
+    If you come accross a situation where the student you're grading 
+    has interpreted the subject differently than you, try and judge
+    fairly whether their interpretation is acceptable or not, and grade
+    them accordingly. Our peer-evaluation system can only work if you
+    both take it seriously.
+
+disclaimer_md: ''
+
+guidelines_md: |
+
+  - You may only evaluate curriculum checklist on FreeCodeCamp, published 
+    website on Github Pages, and the website's source code in the Git 
+    submission directory of the student you are grading.
+
+  - Make sure to check wether the GiT submission directory
+    belongs to the student (or group) you're grading, and that
+    it's the right project.
+
+  - Make sure no mischievous aliases have been used to trick you 
+    into correcting something that is not actually in the official
+    submitted directory.
+
+  - If the student who is grading this project hasn't done the
+    project him/herself yet, he/she must read the whole topic 
+    before starting the evaluation session.
+
+  - Use the flags available to you on this scale in order to report
+    a submission directory that is empty, non-functional, that contains
+    a norm errors or a case of cheating, etc...
+    In this case, the evaluation session ends and the final grade is 0
+    (or -42, in case of cheating). However, unless the student has
+    cheated, we advise you to go through the project together in order 
+    for the two (or more) of you to identify the problems that may have 
+    led for this project to fail, and avoid repeating those mistakes for
+    future projects.
+
+
+correction_number: 5
+duration: 2
+
+
+sections:
+
+
+# **************************************************************************** #
+#                 Section 1: Responsive web design curriculum on FreeCodeCamp  #
+# **************************************************************************** #
+- name: Responsive Web Design Curriculum on FreeCodeCamp
+  position: 1
+  description: 'Go to the FreeCodeCamp curriculum page and check all the required sections for Responsive Web Design have been completed'
+  questions:
+  - name: Basic HTML and HTML5
+    position: 1
+    guidelines: |
+
+      All exercises in Basic HTML and HTML5 section of FreeCodeCamp have been completed
+
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 5
+      name: Web
+
+  - name: Basic CSS
+    position: 2
+    guidelines: |
+
+      All exercises in Basic CSS section of FreeCodeCamp have been completed
+
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 5
+      name: Web
+
+  - name: Applied Visual Design
+    position: 3
+    guidelines: |
+
+      All exercises in Applied Visual Design section of FreeCodeCamp have been completed
+
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 5
+      name: Web
+
+    - name: Responsive Web Design
+    position: 4
+    guidelines: |
+
+      All exercises in Responsive Web Design section of FreeCodeCamp have been completed
+
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 5
+      name: Web
+
+    - name: CSS Flexbox
+    position: 5
+    guidelines: |
+
+      All exercises in CSS Flexbox section of FreeCodeCamp have been completed
+
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 5
+      name: Web
+
+    - name: CSS Grid
+    position: 6
+    guidelines: |
+
+      All exercises in CSS Grid section of FreeCodeCamp have been completed
+
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 5
+      name: Web
+
+# **************************************************************************** #
+#                 Section 2: Responsive Tribute Page                           #
+# **************************************************************************** #
+- name: Responsive Tribute Page
+  position: 2
+  description: 'Examine responsive design of website published on Github Pages and source code from 42 Git Repository'
+
+  questions:
+  - name: 42 Git Repository
+    position: 1
+    guidelines: |
+
+      Git clone the 42 Git Repository. Project should include index.html and style.css
+
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 5
+      name: Web
+
+  questions:
+  - name: Github Repository
+    position: 2
+    guidelines: |
+
+      Project pushed onto Github repository named "H2S_responsive_tribute_page"
+
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 5
+      name: Technology integration
+
+  - name: Github Pages website
+    position: 3
+    guidelines: |
+
+      Github Repository has a README.md that includes a hyperlink to the Github Pages website (URL ends with with github.io)
+
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 5
+      name: Technology integration
+
+  - name: HTML Structure of website
+    position: 4
+    guidelines: |
+
+      HTML file is structured with elements such as "body", "main", "aside", "header", and "footer". Website should contain a header, main content area, a sidebar, and a footer in desktop view. It should also contain images and lists.
+
+    rating: multi
+    kind: standard
+    questions_skills:
+    - percentage: 15
+      name: Web
+
+  - name: CSS Flexbox and/or CSS Grid
+    position: 5
+    guidelines: |
+
+      CSS file contains selectors that have properties 'display' with values 'grid' or 'flex'. 
+
+    rating: bool
+    kind: standard
+    questions_skills:
+    - percentage: 10
+      name: Web
+
+  - name: Design in desktop view
+    position: 6
+    guidelines: |
+
+      Examine the design of the website in desktop view. Is it organized? Is it engaging? Is it easy to read? There should be two or more containers occupying some of the rows of the website.
+
+    rating: multi
+    kind: standard
+    questions_skills:
+    - percentage: 15
+      name: Web
+
+  - name: Design in mobile view
+    position: 7
+    guidelines: |
+
+      Examine the design of the website in mobile view. You can use either Chrome's Developer Tool or your mobile phone to view the website. Is the website easy to read? Is it organized? There should be only one container occupying each row of the website.
+
+    rating: multi
+    kind: standard
+    questions_skills:
+    - percentage: 15
+      name: Web
