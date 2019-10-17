@@ -14,6 +14,11 @@ function install_brew {
   printf '%s\n' "Done Installing Homebrew"
 }
 
+function install_node {
+  printf '%s\n' "Installing Node"
+  brew install node
+}
+
 if [ ! -d "$HOME/.brew" ]; then
     install_brew
 fi
@@ -23,7 +28,7 @@ brew update && brew upgrade
 
 printf '%s\n' "Homebrew update complete"
 
-command -v node >/dev/numm 2>&1 || install_node
+command -v node >/dev/null 2>&1 || install_node
 printf '%s\n' "Node Installed"
 
 exec /bin/zsh
