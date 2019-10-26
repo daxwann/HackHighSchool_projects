@@ -77,47 +77,11 @@ sections:
   position: 1
   description: 'Go to the FreeCodeCamp curriculum page and check all the required sections for Responsive Web Design have been completed'
   questions:
-  - name: Basic HTML and HTML5
+    - name: Responsive Web Design
     position: 1
     guidelines: |
 
-      All exercises in Basic HTML and HTML5 section of FreeCodeCamp have been completed
-
-    rating: bool
-    kind: standard
-    questions_skills:
-    - percentage: 5
-      name: Web
-
-  - name: Basic CSS
-    position: 2
-    guidelines: |
-
-      All exercises in Basic CSS section of FreeCodeCamp have been completed
-
-    rating: bool
-    kind: standard
-    questions_skills:
-    - percentage: 5
-      name: Web
-
-  - name: Applied Visual Design
-    position: 3
-    guidelines: |
-
-      All exercises in Applied Visual Design section of FreeCodeCamp have been completed
-
-    rating: bool
-    kind: standard
-    questions_skills:
-    - percentage: 5
-      name: Web
-
-    - name: Responsive Web Design
-    position: 4
-    guidelines: |
-
-      All exercises in Responsive Web Design section of FreeCodeCamp have been completed
+      All exercises in this section of FreeCodeCamp have been completed. Student should explain what they learned.
 
     rating: bool
     kind: standard
@@ -126,10 +90,10 @@ sections:
       name: Web
 
     - name: CSS Flexbox
-    position: 5
+    position: 2
     guidelines: |
 
-      All exercises in CSS Flexbox section of FreeCodeCamp have been completed
+      All exercises in this section of FreeCodeCamp have been completed. Student should explain what they learned.
 
     rating: bool
     kind: standard
@@ -138,10 +102,10 @@ sections:
       name: Web
 
     - name: CSS Grid
-    position: 6
+    position: 3
     guidelines: |
 
-      All exercises in CSS Grid section of FreeCodeCamp have been completed
+      All exercises in this section of FreeCodeCamp have been completed. Student should explain what they learned.
 
     rating: bool
     kind: standard
@@ -150,9 +114,9 @@ sections:
       name: Web
 
 # **************************************************************************** #
-#                 Section 2: Responsive Tribute Page                           #
+#                 Section 2: Responsive Image Gallery                          #
 # **************************************************************************** #
-- name: Responsive Tribute Page
+- name: Responsive Image Gallery
   position: 2
   description: 'Examine responsive design of website published on Github Pages and source code from 42 Git Repository'
 
@@ -161,7 +125,7 @@ sections:
     position: 1
     guidelines: |
 
-      Git clone the 42 Git Repository. Project should include index.html and style.css
+      Git clone the 42 Git Repository. Project should include index.html and style.css.
 
     rating: bool
     kind: standard
@@ -170,23 +134,11 @@ sections:
       name: Web
 
   questions:
-  - name: Github Repository
+  - name: Github Repository and Website
     position: 2
     guidelines: |
 
-      Project pushed onto Github repository named "H2S_responsive_tribute_page"
-
-    rating: bool
-    kind: standard
-    questions_skills:
-    - percentage: 5
-      name: Technology integration
-
-  - name: Github Pages website
-    position: 3
-    guidelines: |
-
-      Github Repository has a README.md that includes a hyperlink to the Github Pages website (URL ends with with github.io)
+      Project pushed onto Github repository named "H2S_responsive_gallery" with link to website in README.md. Student should explain how they pushed project onto Github.
 
     rating: bool
     kind: standard
@@ -195,49 +147,25 @@ sections:
       name: Technology integration
 
   - name: HTML Structure of website
-    position: 4
+    position: 3
     guidelines: |
 
-      HTML file is structured with elements such as "body", "main", "aside", "header", and "footer". Website should contain a header, main content area, a sidebar, and a footer in desktop view. It should also contain images and lists.
+      Page includes a navbar with logo on the left and first name on the right, and at least 20 images. Student should explain how they built the HTML file.
 
     rating: multi
     kind: standard
     questions_skills:
-    - percentage: 15
+    - percentage: 35
       name: Web
 
   - name: CSS Flexbox and/or CSS Grid
-    position: 5
+    position: 4
     guidelines: |
 
-      CSS file contains selectors that have properties 'display' with values 'grid' or 'flex'. 
-
-    rating: bool
-    kind: standard
-    questions_skills:
-    - percentage: 10
-      name: Web
-
-  - name: Design in desktop view
-    position: 6
-    guidelines: |
-
-      Examine the design of the website in desktop view. Is it organized? Is it engaging? Is it easy to read? There should be two or more containers occupying some of the rows of the website.
+      Navbar should be fixed. Images have the same width. Number of image columns decrease as screen shrinks in size. Student should explain how they made the page responsive with CSS Flexbox and/or Grid. 
 
     rating: multi
     kind: standard
     questions_skills:
-    - percentage: 15
-      name: Web
-
-  - name: Design in mobile view
-    position: 7
-    guidelines: |
-
-      Examine the design of the website in mobile view. You can use either Chrome's Developer Tool or your mobile phone to view the website. Is the website easy to read? Is it organized? There should be only one container occupying each row of the website.
-
-    rating: multi
-    kind: standard
-    questions_skills:
-    - percentage: 15
+    - percentage: 40
       name: Web
